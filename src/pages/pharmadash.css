@@ -1,0 +1,27 @@
+* PharmacistDashboard.css */
+.dashboard {
+  display: flex;
+  flex-direction: column; /* Change to column to stack header on top */
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-content {
+  display: flex; /* Keep main content as flex to align side menu and content */
+  flex-grow: 1; /* Allow it to take the remaining height */
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; /* Ensure content is in a column */
+  margin-left: 200px; /* Width of SideMenu */
+  padding: 20px; /* Add padding for better spacing */
+  overflow: auto; /* Allow scrolling if needed */
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin-left: 0; /* Reset for smaller screens */
+  }
+}

@@ -1,0 +1,29 @@
+.side-menu {
+    position: fixed;
+    left: 0;
+    
+    width: 100px;
+    height: calc(100vh - 60px); 
+    background-color: #76a5f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+
+ 
+  
+  }
+  
+  .delivery-btn {
+    background-color: #07214b;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delivery-btn:hover {
+    background-color: #2563eb;
+  }
+  

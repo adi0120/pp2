@@ -1,0 +1,247 @@
+[
+    {
+      "id": "P123",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St, Cityville",
+      "bloodGroup": "O+",
+      "room": {
+        "number": "101",
+        "type": "Single AC"
+      },
+      "medicalHistory": [
+        "Hypertension",
+        "Allergy to penicillin"
+      ],
+      "previousPrescriptions": [
+        { "date": "2024-07-01", "medications": ["Lisinopril", "Paracetamol"] },
+        { "date": "2024-08-15", "medications": ["Aspirin"] }
+      ],
+      "pendingMedications": [
+        { "id": "M1", "name": "Aspirin" },
+        { "id": "M2", "name": "Ibuprofen" }
+      ],
+      "paidMedications": [
+        { "id": "M3", "name": "Paracetamol" },
+        { "id": "M4", "name": "Amoxicillin" }
+      ]
+    },
+    {
+      "id": "P124",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "987-654-3210",
+      "address": "456 Elm St, Townsville",
+      "bloodGroup": "A+",
+      "room": {
+        "number": "102",
+        "type": "Double Non-AC"
+      },
+      "medicalHistory": [
+        "Diabetes Type 2"
+      ],
+      "previousPrescriptions": [
+        { "date": "2024-06-10", "medications": ["Metformin", "Vitamin D"] }
+      ],
+      "pendingMedications": [
+        { "id": "M5", "name": "Metformin" }
+      ],
+      "paidMedications": [
+        { "id": "M6", "name": "Atorvastatin" }
+      ]
+    },
+    {
+      "id": "P125",
+      "name": "Alice Johnson",
+      "email": "alicejohnson@example.com",
+      "phone": "555-234-5678",
+      "address": "789 Maple St, Villagetown",
+      "bloodGroup": "B-",
+      "room": {
+        "number": "201",
+        "type": "Double AC"
+      },
+      "medicalHistory": [
+        "Asthma"
+      ],
+      "previousPrescriptions": [
+        { "date": "2024-04-25", "medications": ["Albuterol", "Simvastatin"] }
+      ],
+      "pendingMedications": [
+        { "id": "M7", "name": "Lisinopril" }
+      ],
+      "paidMedications": [
+        { "id": "M8", "name": "Simvastatin" }
+      ]
+    },
+    {
+      "id": "P126",
+      "name": "Bob Williams",
+      "email": "bobwilliams@example.com",
+      "phone": "444-567-8901",
+      "address": "321 Oak St, Metropolis",
+      "bloodGroup": "AB+",
+      "room": {
+        "number": "103",
+        "type": "Single Non-AC"
+      },
+      "medicalHistory": [
+        "Chronic back pain"
+      ],
+      "previousPrescriptions": [
+        { "date": "2024-03-12", "medications": ["Gabapentin", "Ibuprofen"] }
+      ],
+      "pendingMedications": [
+        { "id": "M9", "name": "Hydrochlorothiazide" }
+      ],
+      "paidMedications": [
+        { "id": "M10", "name": "Gabapentin" }
+      ]
+    },
+    {
+      "id": "P127",
+      "name": "Chris Evans",
+      "email": "chrisevans@example.com",
+      "phone": "222-333-4444",
+      "address": "123 Pine St, Cityville",
+      "bloodGroup": "A-",
+      "room": {
+        "number": "104",
+        "type": "VIP Suite"
+      },
+      "medicalHistory": [
+        "High cholesterol"
+      ],
+      "previousPrescriptions": [
+        { "date": "2024-05-05", "medications": ["Atorvastatin", "Omeprazole"] }
+      ],
+      "pendingMedications": [
+        { "id": "M11", "name": "Omeprazole" }
+      ],
+      "paidMedications": [
+        { "id": "M12", "name": "Levothyroxine" }
+      ]
+    },
+    {
+      "id": "P128",
+      "name": "David Miller",
+      "email": "davidmiller@example.com",
+      "phone": "555-666-7777",
+      "address": "654 Cedar St, Townsville",
+      "bloodGroup": "B+",
+      "room": {
+        "number": "202",
+        "type": "Double AC"
+      },
+      "medicalHistory": [
+        "Seasonal allergies"
+      ],
+      "previousPrescriptions": [
+        { "date": "2024-02-18", "medications": ["Fexofenadine"] }
+      ],
+      "pendingMedications": [
+        { "id": "M13", "name": "Amlodipine" }
+      ],
+      "paidMedications": [
+        { "id": "M14", "name": "Furosemide" }
+      ]
+    },
+    {
+      "id": "P129",
+      "name": "Emily Taylor",
+      "email": "emilytaylor@example.com",
+      "phone": "888-999-0000",
+      "address": "987 Birch St, Villagetown",
+      "bloodGroup": "O-",
+      "room": {
+        "number": "105",
+        "type": "Single AC"
+      },
+      "medicalHistory": [
+        "Migraines"
+      ],
+      "previousPrescriptions": [
+        { "date": "2024-09-30", "medications": ["Sumatriptan", "Warfarin"] }
+      ],
+      "pendingMedications": [
+        { "id": "M15", "name": "Clopidogrel" }
+      ],
+      "paidMedications": [
+        { "id": "M16", "name": "Warfarin" }
+      ]
+    },
+    {
+      "id": "P130",
+      "name": "Frank Wright",
+      "email": "frankwright@example.com",
+      "phone": "111-222-3333",
+      "address": "321 Willow St, Metropolis",
+      "bloodGroup": "AB-",
+      "room": {
+        "number": "203",
+        "type": "Double Non-AC"
+      },
+      "medicalHistory": [
+        "Arthritis"
+      ],
+      "previousPrescriptions": [
+        { "date": "2024-01-22", "medications": ["Naproxen"] }
+      ],
+      "pendingMedications": [
+        { "id": "M17", "name": "Losartan" }
+      ],
+      "paidMedications": [
+        { "id": "M18", "name": "Montelukast" }
+      ]
+    },
+    {
+      "id": "P131",
+      "name": "Grace Lee",
+      "email": "gracelee@example.com",
+      "phone": "444-555-6666",
+      "address": "432 Spruce St, Cityville",
+      "bloodGroup": "A+",
+      "room": {
+        "number": "106",
+        "type": "Single Non-AC"
+      },
+      "medicalHistory": [
+        "Depression"
+      ],
+      "previousPrescriptions": [
+        { "date": "2024-08-14", "medications": ["Sertraline"] }
+      ],
+      "pendingMedications": [
+        { "id": "M19", "name": "Sertraline" }
+      ],
+      "paidMedications": [
+        { "id": "M20", "name": "Venlafaxine" }
+      ]
+    },
+    {
+      "id": "P132",
+      "name": "Helen King",
+      "email": "helenking@example.com",
+      "phone": "777-888-9999",
+      "address": "765 Oakwood St, Townsville",
+      "bloodGroup": "O+",
+      "room": {
+        "number": "204",
+        "type": "VIP Suite"
+      },
+      "medicalHistory": [
+        "GERD"
+      ],
+      "previousPrescriptions": [
+        { "date": "2024-06-02", "medications": ["Pantoprazole", "Bisoprolol"] }
+      ],
+      "pendingMedications": [
+        { "id": "M21", "name": "Pantoprazole" }
+      ],
+      "paidMedications": [
+        { "id": "M22", "name": "Bisoprolol" }
+      ]
+    }
+  ]
+  
